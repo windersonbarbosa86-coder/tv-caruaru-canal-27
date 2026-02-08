@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,154 +10,181 @@
       font-family: Tahoma, Arial, sans-serif;
       background-color: #0b3d91;
       color: white;
-    }a {
-  color: #cfe3ff;
-  text-decoration: none;
-  font-weight: bold;
-}
+    }
 
-a:hover {
-  text-decoration: underline;
-}
+    a {
+      color: #cfe3ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-.topo {
-  background: linear-gradient(#1e5bd8, #0b3d91);
-  text-align: center;
-  padding: 20px 10px;
-  border-bottom: 4px solid white;
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-.topo h1 {
-  margin: 0;
-  font-size: 40px;
-  letter-spacing: 2px;
-}
+    .topo {
+      background: linear-gradient(#1e5bd8, #0b3d91);
+      text-align: center;
+      padding: 20px 10px;
+      border-bottom: 4px solid white;
+    }
 
-.topo p {
-  margin: 5px 0 0;
-  font-size: 16px;
-  font-style: italic;
-}
+    .topo img {
+      width: 150px; /* logo principal da TV */
+    }
 
-.menu {
-  background: #002f7a;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  border-bottom: 3px solid white;
-}
+    .menu {
+      background: #002f7a;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-bottom: 3px solid white;
+    }
 
-.menu a {
-  padding: 12px 18px;
-  display: block;
-  border-right: 1px solid #1e5bd8;
-}
+    .menu a {
+      padding: 12px 18px;
+      display: block;
+      border-right: 1px solid #1e5bd8;
+    }
 
-.menu a:hover {
-  background: #1e5bd8;
-}
+    .menu a:last-child {
+      border-right: none;
+    }
 
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-}
+    .menu a img {
+      vertical-align: middle;
+      width: 20px; /* ícone nos botões */
+      margin-right: 6px;
+    }
 
-.box {
-  background: #0f4fcf;
-  border: 2px solid white;
-  margin-bottom: 20px;
-  padding: 15px;
-  box-shadow: 0 0 10px #00000055;
-}
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
 
-.box h2 {
-  margin-top: 0;
-  border-bottom: 1px solid white;
-  padding-bottom: 5px;
-}
+    .box {
+      background: #0f4fcf;
+      border: 2px solid white;
+      margin-bottom: 20px;
+      padding: 15px;
+      box-shadow: 0 0 10px #00000055;
+    }
 
-.live {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  background: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  border: 2px solid white;
-}
+    .box h2 {
+      margin-top: 0;
+      border-bottom: 1px solid white;
+      padding-bottom: 5px;
+    }
 
-.rodape {
-  text-align: center;
-  padding: 15px;
-  background: #002f7a;
-  border-top: 3px solid white;
-  font-size: 14px;
-}
+    .live {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      border: 2px solid white;
+    }
 
-.botao {
-  background: #1e5bd8;
-  padding: 8px 12px;
-  border: 1px solid white;
-  display: inline-block;
-  margin-top: 8px;
-}
+    .rodape {
+      text-align: center;
+      padding: 15px;
+      background: #002f7a;
+      border-top: 3px solid white;
+      font-size: 14px;
+    }
 
-.botao:hover {
-  background: #3a7bff;
-}
+    .botao {
+      background: #1e5bd8;
+      padding: 8px 12px;
+      border: 1px solid white;
+      display: inline-block;
+      margin-top: 8px;
+    }
+
+    .botao img {
+      vertical-align: middle;
+      width: 18px;
+      margin-right: 6px;
+    }
 
   </style>
 </head>
-<body>  <div class="topo">
+<body>
+
+  <div class="topo">
+    <!-- EXEMPLO DE LOGO -->
+    <img src="logo-tvcaruaru.png" alt="Logo TV Caruaru">
     <h1>TV CARUARU</h1>
     <p>Canal 27 - Caruaru, PE • Afiliada à Rede Compacto</p>
     <p><strong>"A TV do Interior"</strong></p>
-  </div>  <div class="menu">
-    <a href="#inicio">INÍCIO</a>
-    <a href="#programas">PROGRAMAS</a>
-    <a href="#grade">GRADE</a>
-    <a href="#compacto">SITE DA COMPACTO</a>
-    <a href="#sobre">SOBRE A EMISSORA</a>
-    <a href="#youtube">CANAL NO YOUTUBE</a>
-  </div>  <div class="container"><div class="box" id="inicio">
-  <h2>AO VIVO</h2>
-  <div class="live">Transmissão ainda não iniciada</div>
-  <p>Bem-vindo ao site oficial da TV Caruaru. Em breve, programação completa, notícias locais e muito mais.</p>
-</div>
+  </div>
 
-<div class="box" id="programas">
-  <h2>PROGRAMAS</h2>
-  <p><strong>Seção em manutenção.</strong></p>
-</div>
+  <div class="menu">
+    <a href="#inicio"><img src="icon-home.png" alt="Início">INÍCIO</a>
+    <a href="#programas"><img src="icon-tv.png" alt="Programas">PROGRAMAS</a>
+    <a href="#grade"><img src="icon-schedule.png" alt="Grade">GRADE</a>
+    <a href="#compacto"><img src="icon-link.png" alt="Compacto">SITE DA COMPACTO</a>
+    <a href="#sobre"><img src="icon-info.png" alt="Sobre">SOBRE A EMISSORA</a>
+    <a href="#youtube"><img src="icon-youtube.png" alt="YouTube">CANAL NO YOUTUBE</a>
+  </div>
 
-<div class="box" id="grade">
-  <h2>GRADE DE PROGRAMAÇÃO</h2>
-  <p><strong>Seção em manutenção.</strong></p>
-</div>
+  <div class="container">
 
-<div class="box" id="compacto">
-  <h2>SITE DA REDE COMPACTO</h2>
-  <p>Clique abaixo para acessar o site oficial da Rede Compacto.</p>
-  <a class="botao" href="#" target="_blank">Acessar Rede Compacto</a>
-</div>
+    <div class="box" id="inicio">
+      <h2>AO VIVO</h2>
+      <div class="live">
+        Transmissão ainda não iniciada
+      </div>
+      <p>Bem-vindo ao site oficial da TV Caruaru. Em breve, programação completa, notícias locais e muito mais!</p>
+    </div>
 
-<div class="box" id="sobre">
-  <h2>SOBRE A EMISSORA</h2>
-  <p>
-    <!-- Você pode editar esta descrição livremente -->
-    A TV Caruaru é uma emissora regional dedicada a levar informação, entretenimento e cultura para todo o interior de Pernambuco, valorizando a identidade local e aproximando a comunidade da televisão.
-  </p>
-</div>
+    <div class="box" id="programas">
+      <h2>PROGRAMAS</h2>
+      <p><strong>Seção em manutenção.</strong></p>
+    </div>
 
-<div class="box" id="youtube">
-  <h2>CANAL NO YOUTUBE</h2>
-  <p>Inscreva-se em nosso canal oficial para acompanhar novidades e futuros programas.</p>
-  <a class="botao" href="#" target="_blank">Visitar Canal no YouTube</a>
-</div>
+    <div class="box" id="grade">
+      <h2>GRADE DE PROGRAMAÇÃO</h2>
+      <p><strong>Seção em manutenção.</strong></p>
+    </div>
 
-  </div>  <div class="rodape">
+    <div class="box" id="compacto">
+      <h2>SITE DA REDE COMPACTO</h2>
+      <p>Clique abaixo para acessar o site oficial da Rede Compacto.</p>
+      <a class="botao" href="https://redecompacto.blogspot.com/?m=1" target="_blank">
+        <img src="icon-visit.png" alt="Visitar">VISITAR REDE COMPACTO
+      </a>
+    </div>
+
+    <div class="box" id="sobre">
+      <h2>SOBRE A EMISSORA</h2>
+      <p>
+        A TV Caruaru é uma emissora regional dedicada a levar informação, entretenimento e cultura
+        para todo o interior de Pernambuco, valorizando a identidade local e aproximando a
+        comunidade da televisão.
+      </p>
+      <!-- EXEMPLO DE IMAGEM DENTRO DO CONTEÚDO -->
+      <img src="foto-emissora.jpg" alt="Foto da Emissora" style="width:100%;border:2px solid white;margin-top:10px;">
+    </div>
+
+    <div class="box" id="youtube">
+      <h2>CANAL NO YOUTUBE</h2>
+      <p>Inscreva-se no canal oficial para acompanhar novidades e futuros programas!</p>
+      <a class="botao" href="https://youtube.com/@tvcaruaru1985?si=39QBrM31YsZ62zV9" target="_blank">
+        <img src="icon-youtube.png" alt="YouTube">IR PARA YOUTUBE
+      </a>
+      <!-- EXEMPLO DE IMAGEM PROMOCIONAL -->
+      <p><img src="thumb-youtube.jpg" alt="Thumb YouTube TV Caruaru" style="width:100%;margin-top:10px;border:2px solid white;"></p>
+    </div>
+
+  </div>
+
+  <div class="rodape">
     © 2026 TV CARUARU - TODOS OS DIREITOS RESERVADOS
-  </div></body>
+  </div>
+
+</body>
 </html>
